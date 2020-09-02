@@ -2,8 +2,8 @@
 
 void bubble_sort(int array[], int size) {
     int temp;
-    for (int step = 0; step < size - 1; ++step) {
-        for (int i = 0; i < size - step - 1; ++i) {
+    for (int j = 0; j < size - 1; j++) {
+        for (int i = 0; i < size - j - 1; i++) {
             if (array[i + 1] < array[i]) {
                 temp = array[i];
                 array[i] = array[i + 1];
