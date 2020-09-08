@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 void main(){
-	char a[1000];
+	char a[100];
 	while(1){
-		scanf("%1000s",a);
+		scanf("%100s",a);
 		system(a);	
 	}
 }
