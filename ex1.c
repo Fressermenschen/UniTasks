@@ -1,3 +1,7 @@
+/*
+Each time the programm is ran it outputs a different set of values. This happens because with each run a new process is created, same can be said about forking a new process
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>
