@@ -1,7 +1,7 @@
 /*
 3 fork() - 8 processes
 5 fork() - 32 processes
-Process with n fork-s, executes processes with n-1, n-2 ...,0 fork-s.
+Process with n forks executes processes with n-1, n-2 ..., n-n forks.
 */
 
 #include <stdio.h>
