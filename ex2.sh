@@ -10,4 +10,4 @@ done
 rm -f /tmp/the.lock
 
 //race condition manifested starting from the fist appended digit
-//the race condition is prevented by locking the file< thus the the script will not run if it is already running
+//the race condition is prevented by locking the file, thus the the script will not run if it is already running
