@@ -1,3 +1,5 @@
+// This code was written with assumption that all arrival times are equal, as it doesn't seem effecient to use this sorting method if it is not the case
+
 #include <stdio.h>
 
 void main()
