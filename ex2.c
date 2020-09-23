@@ -1,10 +1,3 @@
-/*
-* This task was completed with the idea that all jobs arrive at the same time
-* Otherwise it is not optimal to sort jobs by lenght as we can have a job running instead of waiting
-* Thus, when asked to input arrival time please write 0
-*/
-
-
 #include <stdio.h>
 
 void main()
@@ -19,14 +12,9 @@ void main()
     int array[n][2];
     int array2[n][2];
     for (int i = 0; i < n; i++) {
-        for (int j = 0; j < 2; j++) {
-            if (j == 0) {
-                printf("Input arrival time[%d]:\n", i);
-            } else {
-                printf("Input burst time[%d]:\n", i);
-            }
-            scanf("%d", &array[i][j]);
-        }
+        printf("Input burst time[%d]:\n", i);
+        scanf("%d", &array[i][1]);
+        array[i][0] = 0;
     }
     
 
