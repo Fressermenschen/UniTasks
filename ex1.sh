@@ -1,3 +1,2 @@
 #!/bin/bash
-OUT=$ size ~/week4/ex2.c //input any desired file and path to it
-echo "$OUT" >> ex1.txt
+size ex1.exe > ex1.txt //input any desired file and path to it
