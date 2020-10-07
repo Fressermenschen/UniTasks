@@ -1,0 +1,2 @@
+Physical address points to a space in the physical memory (hardware memory)
+Virtual address points to a virtual memory space that this program can access
