@@ -1,0 +1,3 @@
+As we have 16 bits per address we can address up to 2^16 bit or 64 KiB
+One page takes up 8 KiB, so the answer is 64/8 = 8
+Answer: 8
