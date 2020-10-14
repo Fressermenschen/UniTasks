@@ -1,0 +1,5 @@
+The more we reference the same page the more hits we get
+For exapmle pages 7 7 7 7 7 7 7 7 7 6 with 10 frames result in 2 misses
+While pages 1 2 3 4 5 6 7 8 9 10 with 10 frames result in 10 misses
+And pages 7 7 7 7 7 7 7 7 7 7 with 10 frames result in 1 miss
+When we encounter a new page we have a miss, but when we encounter the same page more than once it results in a hit
