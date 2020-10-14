@@ -5,8 +5,8 @@
 int findLRU(int time[], int n) {
     int i, minimum = time[0], position = 0;
 
-    for(i = 1; i < n; ++i){
-        if(time[i] < minimum){
+    for (i = 1; i < n; ++i) {
+        if (time[i] < minimum) {
             minimum = time[i];
             position = i;
         }
