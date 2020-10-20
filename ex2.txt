@@ -1,4 +1,4 @@
-11540474045160227 /home/mobaxterm/week1/file.txt    //i-node num of file.txt
+11540474045160227 /home/mobaxterm/week1/file.txt    // i-node num of file.txt
 
                                                     // search by i-node num resulted in following files
 /home/mobaxterm/week1/file.txt
