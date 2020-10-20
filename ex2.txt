@@ -1,0 +1,8 @@
+11540474045160227 /home/mobaxterm/week1/file.txt    //i-node num of file.txt
+
+                                                    // search by i-node num resulted in following files
+/home/mobaxterm/week1/file.txt
+/home/mobaxterm/week10/_ex2.txt
+
+find . –inum 11540474045160227 -exec rm {} \;       // this command removed both files 
+find ~/week10 11540474045160227 -exec rm {} \;      // should have used this command to remove only _ex2.txt
