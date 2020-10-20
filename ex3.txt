@@ -1,6 +1,12 @@
-chmod a-x _ex3.txt      //remove execute permission from all
-chmod uo+x+w+r _ex3.txt //Grant all permissions to owner(user) and others
-chmod g=u  _ex3.txt     //Make group permissions equal to user permissions
+chmod -c 666 _ex3.txt      //remove execute permission from all
+mode of '/home/mobaxterm/week10/_ex3.txt' changed to 0666 (rw-rw-rw-)
+
+chmod -c uo+x+w+r _ex3.txt //Grant all permissions to owner(user) and others
+mode of '/home/mobaxterm/week10/_ex3.txt' changed to 0767 (rwxrw-rwx)
+
+chmod -c g=u _ex3.txt     //Make group permissions equal to user permissions
+mode of '/home/mobaxterm/week10/_ex3.txt' changed to 0777 (rwxrwxrwx)
+
 Read and write permissions for user and group   //What does 660 mean for ex3.txt? 
 Read, write and execute permissions for user and group, read and execute permissions for others   //What does 775 mean for ex3.txt?
 Read, write and execute permissions for all     //What does 777 mean for ex3.txt?
