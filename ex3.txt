@@ -1,0 +1,6 @@
+chmod a-x _ex3.txt      //remove execute permission from all
+chmod uo+x+w+r _ex3.txt //Grant all permissions to owner(user) and others
+chmod g=u  _ex3.txt     //Make group permissions equal to user permissions
+Read and write permissions for user and group   //What does 660 mean for ex3.txt? 
+Read, write and execute permissions for user and group, read and execute permissions for others   //What does 775 mean for ex3.txt?
+Read, write and execute permissions for all     //What does 777 mean for ex3.txt?
