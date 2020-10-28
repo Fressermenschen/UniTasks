@@ -1,0 +1,3 @@
+In the first program it doesn't encounter a new line after "Hello" so it stays in the buffer when the fork() is called.
+Thus "Hello" is printed from the buffer when printf("\n") is called
+In the second program it encounters a new line in "Hello\n" so it is removed from the buffer before the fork() is called.
