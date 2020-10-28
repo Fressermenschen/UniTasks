@@ -1,4 +1,4 @@
-//This code will write "This is a nice day ^@" I'm unable to remove ^@ as it usually results in code writing only about half of the text
+//This code will write "This is a nice day^@" I'm unable to remove ^@ as it usually results in code writing only about half of the text
 
 #include <stdio.h>
 #include <stdlib.h>
