@@ -11,7 +11,7 @@
 
 void main()
 {
-    const char *text = "This is a nice day\0";
+    const char *text = "This is a nice day";
 
     const char *filepath = "../week11/ex1.txt";
 
