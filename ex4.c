@@ -1,5 +1,3 @@
-//Output file "ex1.memcpy.txt" needs to be created beforehand
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -10,7 +8,7 @@
 #include <string.h>
 
 void main() {
-    int fs = open("../week11/ex1.txt", O_RDWR);
+    int fs = open("../week11/ex1.txt", O_RDWR | O_CREAT);
     if (fs == -1) {
         perror("Error opening file for reading");
         exit(EXIT_FAILURE);
