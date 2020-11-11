@@ -1,1 +1,3 @@
-smth
+Deadlock recovery - can be used when dealing with deadlock after it occurs is less costly 
+Deadlock prevention - can be used when the cost of dealing with deadlocks will surpass the cost of its implemeentation in the long run
+Deadlock avoidance - similar to the prevention, but doesn't require restructuring instead opting for the stricter control over resources
