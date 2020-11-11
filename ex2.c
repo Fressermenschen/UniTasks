@@ -8,7 +8,7 @@
 #include <string.h>
 #define BUF_SIZE 4096
 
-void main(int argc, char const *argv[])
+void main(int argc, char *argv[])
 {
     int fd, flags, opt;
     ssize_t nread, nwrite, nwrite2;
