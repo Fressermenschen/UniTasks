@@ -3,6 +3,7 @@
 #include <errno.h>
 #include <sys/stat.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define MAX_ENTRIES 128
 
