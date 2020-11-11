@@ -128,7 +128,6 @@ void main(int argc, char *argv[]) {
             }
         }
         
-        fprintf(output, "(Counting from 1 to %d)", PROCESSES);
     } else {
         output = fopen("output_ok.txt", "w+");
 
